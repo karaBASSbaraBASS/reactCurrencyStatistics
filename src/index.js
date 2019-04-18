@@ -15,7 +15,7 @@ const App = () => {
                 
                 <Switch>
                     <Route path={process.env.PUBLIC_URL+'/'} component={List} exact/>
-                    <Route path={process.env.PUBLIC_URL+'/currency/:id'} component={Detail} exact/>
+                    <Route path={process.env.PUBLIC_URL+'reactCurrencyStatistics/currency/:id'} component={Detail} exact/>
                     <Route component={NotFound}/>
                 </Switch>
             </div>
